@@ -11,7 +11,6 @@ This is a part one (setting up the environment ) of a two part projec. The ultim
 
 ## Honey-Net evnvironment components
 The architecture of the mini honeynet in Azure consists of the following components:
-kgldkg;kg;dkg;dgdgdgd
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
@@ -27,9 +26,11 @@ kgldkg;kg;dkg;dgdgdgd
   
   ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/4fe3279f-73ef-429b-8304-03a723ca4e41)
   
- ## Resource group
+ ## Windows Firewall Defender
  
   ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/eb924822-01b0-4613-98a7-102fb40d8603)
+  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/d82415c0-bc3f-4644-9eff-b8c0c8bfeeed)
+
 
 
 ## Storgae Account
