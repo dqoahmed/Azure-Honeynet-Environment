@@ -11,6 +11,7 @@ This is a part one (setting up the environment ) of a two part projec. The ultim
 
 ## Honey-Net evnvironment components
 The architecture of the mini honeynet in Azure consists of the following components:
+kgldkg;kg;dkg;dgdgdgd
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
