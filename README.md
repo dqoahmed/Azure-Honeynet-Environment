@@ -48,8 +48,8 @@ The architecture of the mini honeynet in Azure consists of the following compone
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/01e975e5-1ada-4edf-898b-dccde21d85ab)
 
 
-## Incident mapping and ivestigation
- Another Visual representation of incidents in the investigation 
+## Incident mapping and ivestigation 
+ Another Visual representation of incidents in the investigation pannel
  
  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/81ef900b-44d9-4856-aa03-327854c554eb)
  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/16009069-f598-4aec-8f13-770ec66b4975)
