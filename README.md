@@ -13,7 +13,7 @@ In the prevous project I have deployed and created all the resourses needed in o
 
 ## Honey-Net evnvironment components
 
-in the previouse project, I have set up the Azure environment consisting of the following components:
+In the previouse project, I have set up the Azure environment consisting of the following components:
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
@@ -36,7 +36,7 @@ in the previouse project, I have set up the Azure environment consisting of the 
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/d82415c0-bc3f-4644-9eff-b8c0c8bfeeed)
 
 
-## sentinal alerts
+## Azure Sentinal alerts (SIEM)
 
  analytics rules that define suspicious activity to trigger alerts 
 
