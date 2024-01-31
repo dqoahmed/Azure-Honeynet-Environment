@@ -23,6 +23,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Microsoft Sentinel
 
 ## Network resource group
+
  I configured the network resource group for both VMs to be vulnerable by modifying the inbound security rules on the network security group to accept anty traffic. 
  
    ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/092b7c80-9481-4a53-ac05-3e95ac6b17a2)
@@ -35,7 +36,9 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 
 ## sentinal alerts
+
 after creating analytics rules that define suspicious activity to trigger alerts Imported the rest of the analytics rules as a file
+
 ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/53cec3ba-ea9a-4867-a407-74bac55388f5)
 
  	**I run insecure Environment for 24 hours to capture analytics.**
@@ -88,8 +91,6 @@ Updated the network security rules for virtual machine in the windows host firew
 ## Results of the system after hardenening
 
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/2db16381-434c-4158-a391-e6b64a12e5b0)
-
-
 
 
   Setting up log analytics workspace which is a central log repository or log container for all applications and infrastructure which helps you collect, monitor, analyze, and query data.
