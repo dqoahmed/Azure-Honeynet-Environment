@@ -35,6 +35,9 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 
 ## sentinal alerts
+after creating analytics rules that define suspicious activity to trigger alerts 
+![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/cc64781d-3cc7-48cd-95bd-d242c6b977dc)
+
  	**I run insecure Environment for 24 hours to capture analytics.**
      Two days after creating sentinel analytic rules, there are plenty of incidents reported. 
  	
@@ -67,11 +70,9 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 
 
-## Actions performed to apply security controls to harden the invironment 
+## Apply security controls to harden the invironment
 
-## Network resource group
-
- Hardened the Network resource group inbound security rules
+Hardened the Network resource group inbound security rules to filter out traffic
 
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/095f5ae5-3720-429a-889f-6289261d35ed)
 
@@ -87,9 +88,6 @@ Updated the network security rules for virtual machine in the windows host firew
 ## Results of the system after hardenening
 
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/2db16381-434c-4158-a391-e6b64a12e5b0)
-
-
-
 
 
 
@@ -113,7 +111,7 @@ Updated the network security rules for virtual machine in the windows host firew
    ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/5cf2b470-8d8c-4759-8f4c-752b39a3e63f)
 
  
-## 	Enabling log collection for VMs and network security groups
+## Enabling log collection for VMs and network security groups
 
   Enabling flow logs for both Linux and Windows network security groups to forward log data to the central log workspace.
   
@@ -128,7 +126,7 @@ Updated the network security rules for virtual machine in the windows host firew
   ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/ddb26204-c7d6-4fc7-a003-90f6f122c92b)
 
 
- ## 	Enabling Loging and monitoring at the subscription level for the activity log
+ ## Enabling Loging and monitoring at the subscription level for the activity log
  
   Activating Loging and monitoring in the Azure monitor to export event activities that happen in the resources such as creating, deleting, and changing and who performed to log analytics workspace. I’ll create and delete resource 
   groups  to generate logs in the log analytics workspace. 
