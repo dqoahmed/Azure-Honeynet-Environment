@@ -65,8 +65,6 @@ The architecture of the mini honeynet in Azure consists of the following compone
 			
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/9b32107e-e498-4570-8170-ee9132407c66)
 
- 
-![image](https://github.com/dqoahmed/Web-Development/assets/156861134/00673610-81ff-495f-8d06-051df2592313)
 
 
 ## Actions performed to apply security controls to harden the invironment 
