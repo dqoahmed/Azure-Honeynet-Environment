@@ -27,8 +27,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
   ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/4fe3279f-73ef-429b-8304-03a723ca4e41)
   
  ## Windows Firewall Defender
- 
-  ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/eb924822-01b0-4613-98a7-102fb40d8603)
+   Windows host firewall defender has been disabled
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/d82415c0-bc3f-4644-9eff-b8c0c8bfeeed)
 
 
