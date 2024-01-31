@@ -37,7 +37,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 ## sentinal alerts
 
-after creating analytics rules that define suspicious activity to trigger alerts Imported the rest of the analytics rules as a file
+ analytics rules that define suspicious activity to trigger alerts 
 
 ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/53cec3ba-ea9a-4867-a407-74bac55388f5)
 
