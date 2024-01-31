@@ -34,11 +34,12 @@ The architecture of the mini honeynet in Azure consists of the following compone
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/d82415c0-bc3f-4644-9eff-b8c0c8bfeeed)
 
 
+## Fhkkjhgk 
+   	**I run insecure Environment for 24 hours to capture analytics.**
+     Two days after creating sentinel analytic rules, there are plenty of incidents reported. 
+     
+     ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/c75e9d66-b58b-4e87-bc46-17a1e8daa2b8)
 
-## Storgae Account
-   Created a storage account within the same resource group as the other resources.
-   
-  ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/ee92ad75-efa5-4783-ae1a-d3ed116af617)
   
 ## Key Vault
   ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/96b4d465-b5b0-412a-a261-b18647d53af7)
