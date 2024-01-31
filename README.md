@@ -40,16 +40,18 @@ The architecture of the mini honeynet in Azure consists of the following compone
  	
  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/e933f61e-e16f-4f31-aa1b-c6c8a2d86f79)
 
-
   
-## trigerring alerts
+## Trigerring alerts
 
 I generated high risk alerts by triggering AAD Brute force success, malware Outbreak(with a fake malware file), windows host firewall tampering, possible privilege escalation by viewing key Vault secret password and performing excessive password resets.
 
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/01e975e5-1ada-4edf-898b-dccde21d85ab)
 
 
-## Azure Active Directory (AAD)
+## Incident mapping 
+ Another Visual representation of incidents
+ ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/81ef900b-44d9-4856-aa03-327854c554eb)
+
 
   AAD is Cloud based identity and Access management that manages user accounts for people in the organization, stores user accounts, and can manage access to other cloud resources. Users can be granted different levels of permission       such  Tenant level, management level, Subscription level, and resource groups level and be  assigned a role or multiple roles within that level.
   I created users and assigned roles such as tenant level global reader, subscription level reader and contributor.
