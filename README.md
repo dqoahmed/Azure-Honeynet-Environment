@@ -37,19 +37,15 @@ The architecture of the mini honeynet in Azure consists of the following compone
 ## sentinal alerts
  	**I run insecure Environment for 24 hours to capture analytics.**
      Two days after creating sentinel analytic rules, there are plenty of incidents reported. 
-
-   	
+ 	
  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/e933f61e-e16f-4f31-aa1b-c6c8a2d86f79)
 
 
-
- 
-
   
 ## trigerring alerts
+
 I generated high risk alerts by triggering AAD Brute force success, malware Outbreak(with a fake malware file), windows host firewall tampering, possible privilege escalation by viewing key Vault secret password and performing excessive password resets. 
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/01e975e5-1ada-4edf-898b-dccde21d85ab)
-
 
 
 ## Azure Active Directory (AAD)
