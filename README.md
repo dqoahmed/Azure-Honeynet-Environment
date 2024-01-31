@@ -24,6 +24,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 ## network resource group
  I configured the network resource group for both VMs to be vulnerable by modifying the inbound security rules on the network security group to accept anty traffic. 
+ 
    ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/092b7c80-9481-4a53-ac05-3e95ac6b17a2)
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/581e5a81-b1e5-431c-aa79-6f1a3d9e9e4d)
 
