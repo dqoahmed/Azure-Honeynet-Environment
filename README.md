@@ -61,6 +61,19 @@ The architecture of the mini honeynet in Azure consists of the following compone
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/f88a614f-fb98-4793-80c9-b3753ad37d09)
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/a1c35147-6630-4cdc-8284-125926ae2cfa)
 
+## The system events Before Hardening 
+
+	BEFORE SECURING ENVIRONMENT	
+		
+	Start Time	2023-03-10T21:03:08.1360519Z
+	Stop Time	2023-03-11T21:03:08.1360519Z
+	Security Events (Windows VMs)	18069
+	Syslog (Linux VMs)	2506
+	SecurityAlert (Microsoft Defender for Cloud)	2
+	SecurityIncident (Sentinel Incidents)	134
+	NSG Inbound Malicious Flows Allowed	1509
+ 
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/00673610-81ff-495f-8d06-051df2592313)
 
 ## After security hardening
 Hardened the Network resource group inbound security rules
@@ -68,11 +81,12 @@ Hardened the Network resource group inbound security rules
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/095f5ae5-3720-429a-889f-6289261d35ed)
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/e7473a73-a079-4e54-abf7-c0e7061517a1)
 
- ## Windows Firewall Defende
-Updated the network security rules for virtual machines and windows host firewall in response to the Brute force which were vulnerable and open to all of the internet traffic.
+ ## Windows Firewall Defender
+Updated the network security rules for virtual machine in the windows host firewall in response to the Brute force which were vulnerable and open to all of the internet traffic.
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/ba6e61f8-34b8-4ab2-a7af-9484e2215ed5)
 
 
+## there are the results of the system after hardenening
 
   Setting up log analytics workspace which is a central log repository or log container for all applications and infrastructure which helps you collect, monitor, analyze, and query data.
   
