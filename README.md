@@ -62,7 +62,17 @@ The architecture of the mini honeynet in Azure consists of the following compone
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/a1c35147-6630-4cdc-8284-125926ae2cfa)
 
 
-## 
+## After security hardening
+Hardened the Network resource group inbound security rules
+
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/095f5ae5-3720-429a-889f-6289261d35ed)
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/e7473a73-a079-4e54-abf7-c0e7061517a1)
+
+ ## Windows Firewall Defende
+Updated the network security rules for virtual machines and windows host firewall in response to the Brute force which were vulnerable and open to all of the internet traffic.
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/ba6e61f8-34b8-4ab2-a7af-9484e2215ed5)
+
+
 
   Setting up log analytics workspace which is a central log repository or log container for all applications and infrastructure which helps you collect, monitor, analyze, and query data.
   
