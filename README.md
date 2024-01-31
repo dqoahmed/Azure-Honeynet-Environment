@@ -53,17 +53,14 @@ I generated high risk alerts by triggering AAD Brute force success, malware Outb
  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/81ef900b-44d9-4856-aa03-327854c554eb)
 
 
-  AAD is Cloud based identity and Access management that manages user accounts for people in the organization, stores user accounts, and can manage access to other cloud resources. Users can be granted different levels of permission       such  Tenant level, management level, Subscription level, and resource groups level and be  assigned a role or multiple roles within that level.
-  I created users and assigned roles such as tenant level global reader, subscription level reader and contributor.
-  
-   ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/0dcf8857-4e29-45a8-9a3f-3df5802ca4f2)
-   
- Here is an example of implementing the principle of least privledge. Jessica is a subscription level reader. She can access resource groups but can’t make any changes as a reader. The last two screenshots show that she was able to view  the resource group but couldn’t apply any changes. 
-   ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/c54162c3-27b6-4da9-afd3-3a64280580fd)
-
-
 
 ## Creating Log Analytics workspace 
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/5aa7ead7-4db9-463d-88f5-38c170b97d5b)
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/f88a614f-fb98-4793-80c9-b3753ad37d09)
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/a1c35147-6630-4cdc-8284-125926ae2cfa)
+
+
+
 
   Setting up log analytics workspace which is a central log repository or log container for all applications and infrastructure which helps you collect, monitor, analyze, and query data.
   
