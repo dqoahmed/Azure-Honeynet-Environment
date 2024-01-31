@@ -35,6 +35,9 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 
 ## sentinal alerts
+ 	**I run insecure Environment for 24 hours to capture analytics.**
+     Two days after creating sentinel analytic rules, there are plenty of incidents reported. 
+
    	
  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/e933f61e-e16f-4f31-aa1b-c6c8a2d86f79)
 
