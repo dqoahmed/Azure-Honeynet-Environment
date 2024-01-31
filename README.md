@@ -68,13 +68,13 @@ In the previouse project, I have set up the Azure environment consisting of the 
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/f88a614f-fb98-4793-80c9-b3753ad37d09)
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/a1c35147-6630-4cdc-8284-125926ae2cfa)
 
-## The system events Before Hardening 
+## insecure system Before Hardening the environment 
 			
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/9b32107e-e498-4570-8170-ee9132407c66)
 
 
 
-## Apply security controls to harden the invironment
+## Apply security controls to harden the environment
 
 Hardened the Network resource group inbound security rules to filter out traffic
 
