@@ -35,8 +35,8 @@ The architecture of the mini honeynet in Azure consists of the following compone
 
 
 ## sentinal alerts
-after creating analytics rules that define suspicious activity to trigger alerts 
-![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/cc64781d-3cc7-48cd-95bd-d242c6b977dc)
+after creating analytics rules that define suspicious activity to trigger alerts Imported the rest of the analytics rules as a file
+![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/53cec3ba-ea9a-4867-a407-74bac55388f5)
 
  	**I run insecure Environment for 24 hours to capture analytics.**
      Two days after creating sentinel analytic rules, there are plenty of incidents reported. 
