@@ -86,7 +86,9 @@ Updated the network security rules for virtual machine in the windows host firew
 
 ## Results of the system after hardenening
 
-![image](https://github.com/dqoahmed/Web-Development/assets/156861134/26f6d78b-cb70-4b42-a625-08967769eadc)
+![image](https://github.com/dqoahmed/Web-Development/assets/156861134/2db16381-434c-4158-a391-e6b64a12e5b0)
+
+
 
 
 
