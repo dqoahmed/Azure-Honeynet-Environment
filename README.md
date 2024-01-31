@@ -3,10 +3,17 @@
 
 ## Introduction
 
-In the prevous project I have deployed and created all the resourses needed in order to run the honey-net environment. In this project, I will perposefully configure our honey-net security system in the virtual machines, network resource groups and other end points to be vulnurable and exposed to the internet where all inbound traffic is able to jsut easly come throuth our network. I'll Run the insecure environment for 48 hours and then capture the analytics that the Security Information and Event Management (SIEM) system generates. After that ill apply security controls to harden the environment.  
+In the prevous project I have deployed and created all the resourses needed in order to run the honey-net environment. In this project, I will perposefully configure our honey-net security system in the virtual machines, network resource groups and other end points to be vulnurable and exposed to the internet where all inbound traffic is able to jsut easly come throuth our network. I'll Run the insecure environment for 48 hours and then capture the analytics that the Security Information and Event Management (SIEM) system generates. After that ill apply security controls to harden the environment. I will be using the following security metrics to compare the before and after of the honey-net environment.
+
+- SecurityEvent (Windows Event Logs)
+- Syslog (Linux Event Logs)
+- SecurityAlert (Log Analytics Alerts Triggered)
+- SecurityIncident (Incidents created by Sentinel)
+- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Honey-Net evnvironment components
-The architecture of the mini honeynet in Azure consists of the following components:
+
+in the previouse project, I have set up the Azure environment consisting of the following components:
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)
