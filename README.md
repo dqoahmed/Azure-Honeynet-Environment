@@ -88,6 +88,8 @@ Updated the network security rules for virtual machine in the windows host firew
 
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/ba6e61f8-34b8-4ab2-a7af-9484e2215ed5)
 
+## Attack maps after hardening
+after hardening the honey-net environment, attack maps didn't show any.
 
 ## Results of the system after hardenening
 
