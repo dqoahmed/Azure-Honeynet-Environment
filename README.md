@@ -75,14 +75,18 @@ The architecture of the mini honeynet in Azure consists of the following compone
  Hardened the Network resource group inbound security rules
 
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/095f5ae5-3720-429a-889f-6289261d35ed)
+
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/e7473a73-a079-4e54-abf7-c0e7061517a1)
 
  ## Windows Firewall Defender
+ 
 Updated the network security rules for virtual machine in the windows host firewall in response to the Brute force which were vulnerable and open to all of the internet traffic.
+
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/ba6e61f8-34b8-4ab2-a7af-9484e2215ed5)
 
 
 ## Results of the system after hardenening
+
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/26f6d78b-cb70-4b42-a625-08967769eadc)
 
 
