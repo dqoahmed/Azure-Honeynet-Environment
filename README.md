@@ -48,13 +48,14 @@ I generated high risk alerts by triggering AAD Brute force success, malware Outb
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/01e975e5-1ada-4edf-898b-dccde21d85ab)
 
 
-## Incident mapping 
- Another Visual representation of incidents
+## Incident mapping and ivestigation
+ Another Visual representation of incidents in the investigation 
+ 
  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/81ef900b-44d9-4856-aa03-327854c554eb)
+ ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/16009069-f598-4aec-8f13-770ec66b4975)
 
 
-
-## Creating Log Analytics workspace 
+## Attack maps before security controls are applied  
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/5aa7ead7-4db9-463d-88f5-38c170b97d5b)
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/f88a614f-fb98-4793-80c9-b3753ad37d09)
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/a1c35147-6630-4cdc-8284-125926ae2cfa)
