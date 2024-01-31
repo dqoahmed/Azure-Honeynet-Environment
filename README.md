@@ -22,7 +22,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Azure Storage Account
 - Microsoft Sentinel
 
-## network resource group
+## Network resource group
  I configured the network resource group for both VMs to be vulnerable by modifying the inbound security rules on the network security group to accept anty traffic. 
  
    ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/092b7c80-9481-4a53-ac05-3e95ac6b17a2)
@@ -43,7 +43,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
   
 ## Trigerring alerts
 
-I generated high risk alerts by triggering AAD Brute force success, malware Outbreak(with a fake malware file), windows host firewall tampering, possible privilege escalation by viewing key Vault secret password and performing excessive password resets.
+ I generated high risk alerts by triggering AAD Brute force success, malware Outbreak(with a fake malware file), windows host firewall tampering, possible privilege escalation by viewing key Vault secret password and performing excessive password resets.
 
   ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/01e975e5-1ada-4edf-898b-dccde21d85ab)
 
@@ -56,12 +56,13 @@ I generated high risk alerts by triggering AAD Brute force success, malware Outb
 
 
 ## Attack maps before security controls are applied  
+
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/5aa7ead7-4db9-463d-88f5-38c170b97d5b)
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/f88a614f-fb98-4793-80c9-b3753ad37d09)
 ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/a1c35147-6630-4cdc-8284-125926ae2cfa)
 
 
-
+## 
 
   Setting up log analytics workspace which is a central log repository or log container for all applications and infrastructure which helps you collect, monitor, analyze, and query data.
   
