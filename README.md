@@ -1,15 +1,9 @@
-# Azure Honey-net 
-# Setting up a cloud  Honeynet environment in Azure Microsoft
+
+# Setting up a cloud Honeynet environment in Azure Microsoft
 
 ## Introduction
- In this project, my objective is to establish a cloud honeynet Environment within Microsoft Azure, encompassing the creation of essential resources such as virtual machines, key vaults, and storage. Subsequently, I will configure Azure Active Directory, implement log analytics, and integrate a Security Information and Event Management (SIEM) system.
 
-The project involves the creation of user accounts with specific permissions, linking all resources to a centralized log repository within the log analytics workspace, facilitating log ingestion. This integrated system will then be connected to the SIEM to enable the triggering of alerts and generation of attack maps on the incident observation and investigation dashboard.
-
-This is a part one (setting up the environment ) of a two part projec. The ultimate aim is to conduct a comparative analysis between the secure and insecure states of the environment, thereby enhancing its overall resilience and security posture.
-
-Also, I installed SQL Server in Windows VM as another end point for people to attack. I exposed our network with the intent to observe our logs and secure them later. Then I added     another attack VM with separate network, location and resource group and installed SQL to attack the other VMs in order to generate and observe logs and then secure the environment for comparison.
-
+In the prevous project I have deployed and created all the resourses needed in order to run the honey-net environment. In this project, I will perposefully configure our honey-net security system in the virtual machines, network resource groups and other end points to be vulnurable and exposed to the internet where all inbound traffic is able to jsut easly come throuth our network. I'll Run the insecure environment for 48 hours and then capture the analytics that the Security Information and Event Management (SIEM) system generates. After that ill apply security controls to harden the environment.  
 
 ## Honey-Net evnvironment components
 The architecture of the mini honeynet in Azure consists of the following components:
