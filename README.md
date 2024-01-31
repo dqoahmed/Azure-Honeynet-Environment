@@ -8,6 +8,8 @@ The project involves the creation of user accounts with specific permissions, li
 
 This is a part one (setting up the environment ) of a two part projec. The ultimate aim is to conduct a comparative analysis between the secure and insecure states of the environment, thereby enhancing its overall resilience and security posture.
 
+Also, I installed SQL Server in Windows VM as another end point for people to attack. I exposed our network with the intent to observe our logs and secure them later. Then I added     another attack VM with separate network, location and resource group and installed SQL to attack the other VMs in order to generate and observe logs and then secure the environment for comparison.
+
 
 ## Honey-Net evnvironment components
 The architecture of the mini honeynet in Azure consists of the following components:
@@ -20,11 +22,12 @@ The architecture of the mini honeynet in Azure consists of the following compone
 - Azure Storage Account
 - Microsoft Sentinel
 
-## Virtual Machine and SSMS set up.
+## network resource group
+ I configured the network resource group for both VMs to be vulnerable by modifying the inbound security rules on the network security group to accept anty traffic. 
+ 
+  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/581e5a81-b1e5-431c-aa79-6f1a3d9e9e4d)
+  ![image](https://github.com/dqoahmed/Web-Development/assets/156861134/092b7c80-9481-4a53-ac05-3e95ac6b17a2)
 
-  Here I created two virtual machines and added them in the same resource group and configured the network resource group for both VMs to be vulnerable by modifying the inbound security rules on the network security group and turned off   the VMs firewall defender as part of the honey net. Also, I installed SQL Server in Windows VM as another end point for people to attack. I exposed our network with the intent to observe our logs and secure them later. Then I added     another attack VM with separate network, location and resource group and installed SQL to attack the other VMs in order to generate and observe logs and then secure the environment for comparison.
-  
-  ![image](https://github.com/dqoahmed/Azure-Honey-Net-Proj/assets/156861134/4fe3279f-73ef-429b-8304-03a723ca4e41)
   
  ## Windows Firewall Defender
    Windows host firewall defender has been disabled
